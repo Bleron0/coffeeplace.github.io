@@ -1,0 +1,344 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(images/aboutimg.jpg);
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav{
+    background-color: rgb(61, 3, 3);
+    width: 100%;
+    height: 60px;
+}
+.nav p{
+    color: wheat;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-right: solid 1px wheat;
+    padding-right: 10px;
+}
+.up{
+    background-color: wheat;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
+    border-radius: 30px;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.an{
+    border: none !important;
+}
+.linkedin a{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.linkedin{
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: wheat;
+    margin-top: 5px;  
+    position: relative;
+    left: 79%;  
+    bottom: 28px;
+    cursor: pointer;
+}
+.linkedin:hover{
+    background-color: rgb(13, 178, 232);
+
+}
+.twitter{
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: wheat;
+    margin-top: 5px;  
+    position: relative;
+    left: 83%;  
+    bottom: 73px;
+    cursor: pointer;
+}
+.twitter a{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.twitter:hover{
+    background-color: rgb(4, 181, 240);
+}
+.pinterest{
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: wheat;
+    margin-top: 5px;
+    position: relative;
+    left: 87%;  
+    bottom: 117px;
+    cursor: pointer;  
+}
+.pinterest a{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.pinterest:hover{
+    background-color: red;
+}
+.gmail{
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: wheat;
+    margin-top: 5px;
+    position: relative;
+    left: 91%;  
+    bottom: 161px;
+    cursor: pointer;  
+}
+.gmail img{
+    width: 40px;
+}
+.gmail:hover{
+    background-color: red;
+}
+.facebook{
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: wheat;
+    margin-top: 5px;
+    position: relative;
+    left: 95%;  
+    bottom: 206px;
+    cursor: pointer;  
+}
+.facebook a{
+    position: relative;
+    top: 6px;
+    left: 5px;
+}
+.facebook img{
+    height: 30px;
+}
+.facebook:hover{
+    background-color: blue;
+}
+.div1{
+    display: inline-block;
+    width: 40%;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    
+}
+.div1 img{
+    width: 110px;
+    height: 110px;
+    border-radius: 55px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.div2{
+    width: 50%;
+    position: relative;
+    bottom: 60px;
+    left: 50%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav2 a div{
+    width: 15%;
+    height: 50px;
+    background-color:  rgb(61, 3, 3);
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav2 a div{
+    text-decoration: none;
+    color: white;
+    
+}
+.nav2 a div:hover{
+    background-color: wheat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+.home{
+    margin-left: 4%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.menu{
+    background-color: wheat !important;
+}
+.sponsors{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.photos1{
+    padding-left: 130px;
+}
+.img1 {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px red;
+}
+.img2{
+    margin-left: 50px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px green;
+}
+.img3{
+    margin-left: 50px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px orange;
+}
+.capo{
+    margin-left: 40px;
+}
+.capop{
+    margin-left: 40px;
+}
+.mac{
+    position: relative;
+    bottom: 58px;
+    left: 370px;
+}
+.macp{
+    position: relative;
+    bottom: 58px;
+    left: 370px;
+}
+.dex{
+    position: relative;
+    bottom: 133px;
+    left: 740px;
+}
+.dexp{
+    position: relative;
+    bottom: 133px;
+    left: 740px;
+}
+.photos2{
+    padding-left: 130px;
+}
+.img4 {
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px yellow;
+}
+.img5{
+    margin-left: 50px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px blue;
+}
+.img6{
+    margin-left: 50px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(214, 9, 135);
+}
+.hotc{
+    margin-left: 40px;
+}
+.hotcp{
+    margin-left: 40px;
+}
+.icec{
+    position: relative;
+    bottom: 58px;
+    left: 405px;
+}
+.icecp{
+    position: relative;
+    bottom: 58px;
+    left: 405px;
+}
+.latte{
+    position: relative;
+    bottom: 120px;
+    left: 775px;
+}
+.lattep{
+    position: relative;
+    bottom: 120px;
+    left: 775px;
+}
+.photos3{
+    padding-left: 130px;
+}
+.img7 {
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px purple;
+    height: 200px;
+}
+.img8{
+    margin-left: 50px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px greenyellow;
+}
+.img9{
+    margin-left: 50px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px aqua;
+}
+.mon{
+    margin-left: 40px;
+}
+.monp{
+    margin-left: 40px;
+}
+.mocha{
+    position: relative;
+    bottom: 77px;
+    left: 410px;
+}
+.mochap{
+    position: relative;
+    bottom: 77px;
+    left: 410px;
+}
+.wmocha{
+    position: relative;
+    bottom: 150px;
+    left: 745px;
+}
+.wmochap{
+    position: relative;
+    bottom: 150px;
+    left: 745px;
+}
+.h1menu{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border-bottom: 2px solid burlywood;
+    width: 100px;
+    margin-left: 570px;
+}

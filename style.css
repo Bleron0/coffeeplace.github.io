@@ -1,0 +1,340 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(images/aboutimg.jpg);
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav{
+    background-color: rgb(61, 3, 3);
+    width: 100%;
+    height: 60px;
+}
+.nav p{
+    color: wheat;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-right: solid 1px wheat;
+    padding-right: 10px;
+}
+.up{
+    background-color: wheat;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
+    border-radius: 30px;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.an{
+    border: none !important;
+}
+.linkedin a{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.linkedin{
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: wheat;
+    margin-top: 5px;  
+    position: relative;
+    left: 79%;  
+    bottom: 28px;
+    cursor: pointer;
+}
+.linkedin:hover{
+    background-color: rgb(13, 178, 232);
+
+}
+.twitter{
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: wheat;
+    margin-top: 5px;  
+    position: relative;
+    left: 83%;  
+    bottom: 73px;
+    cursor: pointer;
+}
+.twitter a{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.twitter:hover{
+    background-color: rgb(4, 181, 240);
+}
+.pinterest{
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: wheat;
+    margin-top: 5px;
+    position: relative;
+    left: 87%;  
+    bottom: 117px;
+    cursor: pointer;  
+}
+.pinterest a{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.pinterest:hover{
+    background-color: red;
+}
+.gmail{
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: wheat;
+    margin-top: 5px;
+    position: relative;
+    left: 91%;  
+    bottom: 161px;
+    cursor: pointer;  
+}
+.gmail img{
+    width: 40px;
+}
+.gmail:hover{
+    background-color: red;
+}
+.facebook{
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: wheat;
+    margin-top: 5px;
+    position: relative;
+    left: 95%;  
+    bottom: 206px;
+    cursor: pointer;  
+}
+.facebook a{
+    position: relative;
+    top: 6px;
+    left: 5px;
+}
+.facebook img{
+    height: 30px;
+}
+.facebook:hover{
+    background-color: blue;
+}
+.div1{
+    display: inline-block;
+    width: 40%;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    
+}
+.div1 img{
+    width: 110px;
+    height: 110px;
+    border-radius: 55px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.div2{
+    width: 50%;
+    position: relative;
+    bottom: 60px;
+    left: 50%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav2 a div{
+    width: 15%;
+    height: 50px;
+    background-color:  rgb(61, 3, 3);
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav2 a div{
+    text-decoration: none;
+    color: white;
+    
+}
+.nav2 a div:hover{
+    background-color: wheat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+.home{
+    margin-left: 4%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: wheat !important;
+}
+.sponsors{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.idk{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 20px;
+    color: burlywood;
+}
+.photos1{
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+}
+.photos1 img{
+    width: 650px;
+    height: 608px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.photos3{
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.photos3 img{
+    width: 500px;
+    height: 200px;
+    
+}
+.d1 img{
+    border-top-right-radius: 20px;
+}
+.d4 img{
+    border-bottom-right-radius: 20px;
+}
+.yth1{
+    margin-top: 700px;
+    margin-right: 650px;
+    margin-left: 50px;
+    width: 45%;
+    border-top: 5px solid wheat;
+    padding-top: 30px;
+    height: 400px;
+}
+.h2{
+    position: relative;
+    bottom: 47px;
+    left: 160px;
+    background-color: wheat;
+    border-radius: 70px;
+    width: 235px;
+}
+.yth1 h2{
+    padding-left: 50px;
+}
+.yth2 h2{
+    padding-left: 70px;
+}
+.pw1{
+    display: flex;
+    flex-direction: row;
+}
+.pw1 img{
+    width: 200px;
+    height: 150px;
+    border-radius: 80px;
+    
+}
+.pw1 p{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.pw2{
+    display: flex;
+    flex-direction: row;
+}
+.pw2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    
+}
+.pw2 p{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.yth2{
+    position: relative;
+    bottom: 453px;
+    left: 645px;
+    width: 45%;
+    border-top: 5px solid wheat;
+    padding-top: 30px;
+    height: 10px;
+}
+.dow7{
+    display: inline-block;
+    width: 50%;
+    
+}
+.dow8{
+    display: inline-block;
+    width: 49%;
+}
+.dow7 img{
+    width: 100%;
+    height: 400px;
+    box-shadow: 5px -5px 5px  grey;
+    border-radius: 10px;
+}
+.dow8 img{
+    width: 100%;
+    height: 400px;
+    box-shadow: 5px -5px 5px grey;
+    border-radius: 10px;
+}
+.footer{
+    background-color: rgb(255, 239, 239);
+    color: black;
+    height: 450px;
+    border-top: 2px solid grey;
+}
+.firstd{
+    width: 25%;
+    display: inline-block;
+    margin-left: 50px;
+}
+.secondd{
+    color: brown;
+    width: 30%;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.secondd p{
+    border-bottom: solid 1px rgb(194, 167, 117);
+    width: 300px;
+}
+.thirdd{
+    width: 30%;
+    display: inline-block;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+.thirdd button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(61, 3, 3);
+    color: wheat;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
